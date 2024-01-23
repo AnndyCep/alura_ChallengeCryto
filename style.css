@@ -1,0 +1,75 @@
+body {
+  background-color: #e0ffff;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.textarea-container {
+  display: flex;
+  gap: 10px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 200px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#copyButton {
+  background-color: #2196F3;
+}
+
+button:hover {
+  background-color: #0d8ef1;
+}
+
+textarea#inputText {
+  background-color: #b3e5fc;
+}
+
+textarea#outputText {
+  background-color: #b3fcf4;
+}
+
+button {
+  background-color: #3f843a;
+}
+
+button:hover {
+  background-color: #377133;
+}
