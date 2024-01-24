@@ -1,75 +1,48 @@
-body {
-  background-color: #e0ffff;
-  font-family: Arial, sans-serif;
-}
-
 .container {
-  width: 500px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f9f9f9;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
 }
 
 h1 {
+  color: #333;
   text-align: center;
-  margin-bottom: 30px;
-}
-
-.textarea-container {
-  display: flex;
-  gap: 10px;
 }
 
 textarea {
-  width: 100%;
-  min-height: 200px;
+  width: 95%;
   padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: none;
+  border-radius: 5px;
+  height: 200px; /* Establece la altura deseada */
 }
 
 .buttons-container {
-  display: flex;
-  justify-content: space-between;
+  text-align: center;
 }
 
-button {
-  background-color: #4CAF50;
-  color: white;
+.button-encrypt,
+.button-decrypt,
+.button-copy {
   padding: 10px 20px;
+  margin: 5px;
+  background-color: #007bff;
+  color: #fff;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
   cursor: pointer;
 }
 
-button:hover {
-  background-color: #45a049;
+.button-encrypt:hover,
+.button-decrypt:hover,
+.button-copy:hover {
+  background-color: #0056b3;
 }
 
-#copyButton {
-  background-color: #2196F3;
-}
-
-button:hover {
-  background-color: #0d8ef1;
-}
-
-textarea#inputText {
-  background-color: #b3e5fc;
-}
-
-textarea#outputText {
-  background-color: #b3fcf4;
-}
-
-button {
-  background-color: #3f843a;
-}
-
-button:hover {
-  background-color: #377133;
+footer {
+  text-align: center;
+  margin-top: 20px;
 }
